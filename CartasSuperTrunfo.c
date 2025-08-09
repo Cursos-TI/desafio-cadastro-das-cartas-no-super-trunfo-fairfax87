@@ -43,12 +43,9 @@ int main()
     printf("area1:%.2f\n", area1);
     printf("pib1:%.2f\n", pib1);
     printf("Densidade Populacional: %.2f hab/km²\n", resultadoDensidade1);
-    printf("pib per capita: %.2f", resultadoPib1);
+    printf("pib per capita: %.2f\n", resultadoPib1);
 
-
-
-
-     // carta 2
+    // carta 2
     char estado2[5];
     char cidade2[10];
     int populacao2, pontosTuristicos2, cod_carta2;
@@ -92,8 +89,6 @@ int main()
     printf("Densidade Populacional: %.2f hab/km²\n", resultadoDensidade2);
     printf("pib per capita: %.2f", resultadoPib2);
     printf("\n");
-
-   
 
     return 0;
 }
