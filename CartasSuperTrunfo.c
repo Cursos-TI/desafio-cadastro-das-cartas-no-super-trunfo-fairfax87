@@ -103,6 +103,25 @@ int main()
     printf("Densidade Populacional: %.2f hab/km²\n", resultadoDensidade2);
     printf("pib per capita: %.2f\n", resultadoPib2);
     printf("Superpoder: %.2f\n", superpoder2);
+
+    // Comparação dos superpoderes
+    
+    if (superpoder1 > superpoder2) {
+        printf("A Carta 1 venceu!\n");
+    } else if (superpoder2 > superpoder1) {
+        printf("A Carta 2 venceu!\n");
+    } else {
+        printf("Empate!\n");
+    }
+
+
+
+
+
+
+
+
+
     printf("\n");
 
     return 0;
